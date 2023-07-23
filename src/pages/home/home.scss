@@ -1,0 +1,53 @@
+@media (max-width: 1290px) {
+  .hide {
+    display: none;
+  }
+  .sidebar-wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 1290px) {
+  // .dropdown-button {
+  //   display: none;
+  // }
+  .sidebar-wrapper {
+    display: block;
+  }
+}
+
+.dropdown-button {
+  width: 100%;
+}
+
+// .sidebar-wrapper {
+//   display: none;
+// }
+
+// .sidebar-wrapper.open {
+//   display: contents;
+// }
+
+.updateButton {
+  background-color: rgb(226 47 86);
+  padding: 2px 5px;
+  border-radius: 25px;
+  color: #ffff;
+  border: 1px dotted #dc143c99;
+  cursor: pointer;
+  height: 6.5vh;
+  width: 16vh;
+  margin: 3px;
+  font-size: 3.5vh;
+}
+
+.AddButton {
+  background-color: rgb(226 47 86);
+  color: "white";
+}
+
+.buttonspace {
+  display: flex;
+  direction: ltr;
+  justify-content: space-between;
+}
